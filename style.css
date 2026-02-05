@@ -1,5 +1,22 @@
+:root {
+  --base-100: #8e9487;
+  --base-200: #1e1e1c;
+  --base-300: #9381ff;
+  --base-400: #f0c808;
+  --base-500: #bc4749;
+  --base-600: #c2c1c2;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Instrument Sans", sans-serif;
 }
