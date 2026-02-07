@@ -25,6 +25,7 @@ body {
 main {
   position: relative;
   z-index: 1;
+  opacity: 0;
 }
 
 img {
@@ -192,4 +193,5 @@ section.four {
   padding: 2rem;
   color: #ffffff;
   background-color: #0f0f0f;
+  opacity: 0;
 }
