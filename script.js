@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   const sections = document.querySelectorAll("section");
 
   gsap.set("main", { opacity: 1 });
-  gsap.set("footer", { opacity: 1 });
+  gsap.set(".footer", { opacity: 1 });
 
   sections.forEach((section, index) => {
     const container = section.querySelector(".container");
